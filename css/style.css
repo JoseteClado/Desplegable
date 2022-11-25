@@ -63,7 +63,8 @@ input:checked ~ .desplegable2{
     align-items: center;
     font-size: var(--fuente_H2);
     padding: 90px 0;
-    background-color: var(--color_VerdeBase)  ;
+    background-color: var(--color_VerdeOscuro);
+    color: var(--color_VerdeBase);
 }
 
 ul{
