@@ -36,9 +36,6 @@ html{
 
 }
 
-
-
-
 input{
     display: none;
 }
@@ -55,7 +52,6 @@ label{
     height: 100vh;
     background-color: var(--color_VerdeBase);
     justify-content: space-around;
-    
     
 }
 
@@ -80,3 +76,37 @@ ul{
     height: var(--iconoAltura);
 }
 
+
+input:checked ~ .menuPrincipal{
+
+    display: none;
+ 
+ }
+
+
+.menuPrincipal{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    background-color: var(--color_VerdeClaro);
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 200px 0;
+
+}
+
+.corona{
+    color: white;
+    height: 60px;
+    width: 60px;
+}
+
+h1{
+    font-size: var(--fuente_H1);
+}
+
+.letrasTitulo{
+    height: 80%;
+
+}
