@@ -86,7 +86,6 @@ input:checked ~ .menuPrincipal{
  
  }
 
-
 .menuPrincipal{
     display: flex;
     justify-content: center;
@@ -97,6 +96,7 @@ input:checked ~ .menuPrincipal{
     box-sizing: border-box;
     align-items: center;
 }
+
 
 h1{
     font-size: var(--fuente_H1);
