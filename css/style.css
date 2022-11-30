@@ -67,6 +67,12 @@ input:checked ~ .desplegable2{
     color: var(--color_VerdeBase);
 }
 
+a{
+    text-decoration: none;
+    color: var(--color_VerdeBase);
+}
+
+
 ul{
     margin: 0;
     list-style: none;
