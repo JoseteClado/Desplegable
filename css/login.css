@@ -31,10 +31,19 @@
     
     }
 
+
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
 }
 
 .hexagonoVerde{
@@ -47,12 +56,9 @@ h2{
     font-size: var(--fuente_H2);
 }
 
-header{
-    text-align: center;
-}
 
 .letrasIniciales{
-    margin-top: 120px;
+    margin-top: 90px;
 }
 
 .titulo{
@@ -69,7 +75,7 @@ main{
     text-align: center;
 }
 
-input{
+.input1, .input2{
     width: 90%;
     height: 48px;
     border-radius: 30px;
@@ -125,13 +131,18 @@ footer>h4{
 }
 
 
+
+
+.input3{
+    display: none;
+}
+
 label{
     position: absolute;
     padding: var(--margen_PaddingGeneral);
 }
 
 .desplegable2{
-    
     display: none;
     width: 100%;
     height: 100vh;
@@ -139,8 +150,6 @@ label{
     justify-content: space-around;
     
 }
-
-
 
 input:checked ~ .desplegable2{
     display: flex;
@@ -150,4 +159,19 @@ input:checked ~ .desplegable2{
     padding: 90px 0;
     background-color: var(--color_VerdeOscuro);
     color: var(--color_VerdeBase);
+}
+
+ul{
+    margin: 0;
+    list-style: none;
+}
+
+.icono{
+    width: var(--iconoAncho);
+    height: var(--iconoAltura);
+    
+}
+
+.desplegable{
+    
 }
